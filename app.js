@@ -3,7 +3,7 @@ const emailInput = document.getElementById('emailInput');
 const btnGenerar = document.getElementById('btnGenerar');
 const resultadoContenedor = document.getElementById('resultadoContenedor');
 const tokenOutput = document.getElementById('tokenOutput');
-const nombre_alumno = "SOY ALEX REYES, SOY GEI Y MI PROGRAMA TERMINÓ A LAS: ";
+const nombre_alumno = "SOY ALEX REYES, Y MI PROGRAMA TERMINÓ A LAS: ";
 const fecha = new Date();
 
 // 2. Escuchar el evento de clic en el botón
@@ -13,7 +13,7 @@ btnGenerar.addEventListener('click', () => {
     // Validación simple mediante el DOM
     if (correo === "" || !correo.includes('@')) {
         alert("Por favor, introduce un correo electrónico válido.");
-        console.error("NO PUSISTE ARROBA WEY >:V");
+        console.error("NO PUSISTE ARROBA");
         return;
     }
 
